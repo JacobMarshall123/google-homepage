@@ -1,0 +1,48 @@
+.flexbox1{
+    display: flex;   
+    flex-direction: column;
+    height: 425px;
+    align-content: space-between;    
+} 
+
+.flexbox2 {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: -520px;
+    margin-top: -45px; 
+}
+
+#google-logo {   
+    flex-shrink: 0;
+    padding-top: 250px;
+    margin: auto;
+}
+
+#search-bar {
+    background-color: transparent;    
+    margin: auto;    
+    flex-shrink: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 44px;
+    text-align: start;
+    width: 475px;
+    outline:none;  
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    text-indent: 20px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#search-button {    
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    flex-shrink: 0;
+}
+
